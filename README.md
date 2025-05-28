@@ -107,4 +107,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> 🚧 *This repository is under active development — more advanced examples and role-based projects will be added soon*
+> 🚧 *This repository is under active development — more advanced examples and role-based projects will be added soon.*
