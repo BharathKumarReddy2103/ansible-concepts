@@ -2,7 +2,7 @@
 
 Welcome to the **Ansible Practice Repository** 🛠️  
 
-This repository is maintained by Bharath Kumar Reddy (https://www.linkedin.com/in/bharath-kumar-reddy2103/) — a Senior DevOps & DataOps Engineer — to explore, practice, and demonstrate real-world use cases of **Ansible** for DevOps automation and configuration management.
+This repository is maintained by Bharath Kumar Reddy (https://www.linkedin.com/in/bharath-kumar-reddy2103) — a Senior DevOps & DataOps Engineer — to explore, practice, and demonstrate real-world use cases of **Ansible** for DevOps automation and configuration management.
 
 ---
 
@@ -90,7 +90,7 @@ ansible-playbook 11-vars-args.yaml -e "COURSE=DevOps DURATION=100"
 **Bharath Kumar Reddy**
 Senior DevOps & DataOps Engineer
 
-* 💼 [LinkedIn](https://www.linkedin.com/in/bharath-kumar-reddy2103/)
+* 💼 [LinkedIn](https://www.linkedin.com/in/bharath-kumar-reddy2103)
 * 🐙 [GitHub](https://github.com/BharathKumarReddy2103)
 
 ---
