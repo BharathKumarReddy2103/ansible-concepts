@@ -39,7 +39,7 @@ Ansible-Practice/
 └── inventory.ini                # Static inventory file
 ````
 
-> 🔄 New examples and modules will be added regularly
+> 🔄 New examples and modules will be added regularly.
 
 ---
 
