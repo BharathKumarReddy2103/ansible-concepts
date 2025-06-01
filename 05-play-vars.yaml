@@ -1,10 +1,10 @@
 - name: play level variables
   hosts: local
   connection: local
-  vars:
-    COURSE: Ansible # equal to COURSE=Ansible in shell, shell we refer $VAR or ${VAR}
-    DURATION: 10HR
-    TRAINER: BharathKumarReddy
+  # vars:
+  #   COURSE: Ansible # equal to COURSE=Ansible in shell, shell we refer $VAR or ${VAR}
+  #   DURATION: 10HR
+  #   TRAINER: BharathKumarReddy
   tasks:
   - name: print course information
     ansible.builtin.debug:
