@@ -9,9 +9,9 @@
     - Linux
     - Shell
     - Ansible
-    # CONCEPTS: # map or dictionary or object. referred like {}
-    #   CI: Jenkins
-    #   SCRIPTING: "Shell, Ansible, Terraform, Python"
+    CONCEPTS: # map or dictionary or object. referred like {}
+      CI: Jenkins
+      SCRIPTING: "Shell, Ansible, Terraform, Python"
   tasks:
   - name: print course information
     ansible.builtin.debug:
