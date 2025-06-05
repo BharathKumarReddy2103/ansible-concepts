@@ -1,14 +1,14 @@
 - name: ansible datatypes
   hosts: local
   connection: local
-  # vars:
-  #   DURATION: 120 # This is number
-  #   COURSE: "DevSecOps with AWS" # String
-  #   IS_LIVE: true # boolean
-    TOOLS: # List []
-    - Linux
-    - Shell
-    - Ansible
+  vars:
+    DURATION: 120 # This is number
+    COURSE: "DevSecOps with AWS" # String
+    IS_LIVE: true # boolean
+    # TOOLS: # List []
+    # - Linux
+    # - Shell
+    # - Ansible
     CONCEPTS: # map or dictionary or object. referred like {}
       CI: Jenkins
       SCRIPTING: "Shell, Ansible, Terraform, Python"
