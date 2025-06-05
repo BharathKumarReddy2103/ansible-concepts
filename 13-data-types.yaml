@@ -1,10 +1,10 @@
 - name: ansible datatypes
   hosts: local
   connection: local
-  vars:
-    DURATION: 120 # This is number
-    COURSE: "DevSecOps with AWS" # String
-    IS_LIVE: true # boolean
+  # vars:
+  #   DURATION: 120 # This is number
+  #   COURSE: "DevSecOps with AWS" # String
+  #   IS_LIVE: true # boolean
     TOOLS: # List []
     - Linux
     - Shell
