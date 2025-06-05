@@ -5,13 +5,13 @@
     DURATION: 120 # This is number
     COURSE: "DevSecOps with AWS" # String
     IS_LIVE: true # boolean
-    # TOOLS: # List []
-    # - Linux
-    # - Shell
-    # - Ansible
-    CONCEPTS: # map or dictionary or object. referred like {}
-      CI: Jenkins
-      SCRIPTING: "Shell, Ansible, Terraform, Python"
+    TOOLS: # List []
+    - Linux
+    - Shell
+    - Ansible
+    # CONCEPTS: # map or dictionary or object. referred like {}
+    #   CI: Jenkins
+    #   SCRIPTING: "Shell, Ansible, Terraform, Python"
   tasks:
   - name: print course information
     ansible.builtin.debug:
