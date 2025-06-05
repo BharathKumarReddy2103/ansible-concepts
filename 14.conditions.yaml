@@ -1,8 +1,8 @@
 - name: conditions demo
   hosts: local
   connection: local
-  vars:
-    NUMBER: 78
+  # vars:
+  #   NUMBER: 78
   tasks:
   - name: print if the number is less than or equal to 100
     ansible.builtin.debug:
