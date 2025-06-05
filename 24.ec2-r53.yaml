@@ -3,7 +3,7 @@
   connection: local
   vars:
     instances:
-    - mysqllll
+    - mysql
     - backend
     - frontend
     subnet_id: subnet-0829fd8ccf5324944
@@ -20,11 +20,11 @@
       tags:
         Name: "{{ item }}"
     loop: "{{ instances }}"
-    # register: ec2_output
+    register: ec2_output
 
-  # - name: print ec2_output
-  #   ansible.builtin.debug:
-  #     msg: "{{ ec2_output }}"
+  - name: print ec2_output
+    ansible.builtin.debug:
+      msg: "{{ ec2_output }}"
 
   # - name: create r53 records
   #   amazon.aws.route53:
