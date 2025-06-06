@@ -5,8 +5,8 @@
   - name: print names
     ansible.builtin.debug:
       msg: "Hello, {{ item }}" #item here is reserved keyword
-    loop:
-    - Suresh
-    - Ramesh
-    - Joseph
-    - Raheem
+    # loop:
+    # - Suresh
+    # - Ramesh
+    # - Joseph
+    # - Raheem
