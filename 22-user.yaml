@@ -7,12 +7,12 @@
     register: output
     ignore_errors: true
   
-  - name: create user
-    become: yes
-    ansible.builtin.command: useradd roboshop
-    when: output.rc != 0 # it means above task failure
+  # - name: create user
+  #   become: yes
+  #   ansible.builtin.command: useradd roboshop
+  #   when: output.rc != 0 # it means above task failure
 
-  - name: user already exist
-    ansible.builtin.debug:
-      msg: "user already exist"
-    when: output.rc == 0 # it means above task failure
+  # - name: user already exist
+  #   ansible.builtin.debug:
+  #     msg: "user already exist"
+  #   when: output.rc == 0 # it means above task failure
