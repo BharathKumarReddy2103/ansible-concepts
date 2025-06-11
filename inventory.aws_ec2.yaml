@@ -8,9 +8,9 @@ keyed_groups:
 filters:
   tag:Name: frontend
   instance-state-name : running
-# hostnames:
-#   # You can also specify a list in order of precedence for hostname variables.
-#   - private-ip-address
-# compose:
-#   # This sets the `ansible_host` variable to connect with the private IP address without changing the hostname.
-#   ansible_host: private_ip_address
+hostnames:
+  # You can also specify a list in order of precedence for hostname variables.
+  - private-ip-address
+compose:
+  # This sets the `ansible_host` variable to connect with the private IP address without changing the hostname.
+  ansible_host: private_ip_address
