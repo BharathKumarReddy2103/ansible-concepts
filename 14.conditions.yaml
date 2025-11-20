@@ -13,4 +13,3 @@
     ansible.builtin.debug:
       msg: "Given number {{ NUMBER }} is greater than 100"
     when: NUMBER > 100
-    
