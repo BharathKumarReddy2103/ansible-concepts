@@ -4,7 +4,7 @@
   vars:
     COURSE: DevOps with AWS
     DURATION: 10HR
-    TRAINER: BharathKumarReddy
+    TRAINER: BharathKumarReddy N
   tasks:
   - name: print course information
     vars:
