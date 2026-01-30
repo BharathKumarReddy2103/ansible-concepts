@@ -3,5 +3,5 @@
   connection: local # no need of username & password
   tasks: 
   - name: print hellow world
-    ansi   ble.builtin.debug:
+    ansible.builtin.debug:
       msg: "Hello world"
