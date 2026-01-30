@@ -17,7 +17,7 @@
       course:
         name: ansible
         duration: 10HR
-        trainer: BharathKumarReddy
+        trainer: BharathKumarReddy N
     ansible.builtin.debug:
       msg: "Course Info: {{ course | dict2items  }}"
 
