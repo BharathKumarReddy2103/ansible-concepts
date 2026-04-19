@@ -8,7 +8,7 @@
     - frontend
     subnet_id: subnet-027e9b95abbffe496
     sg_id: sg-05847b88288dddafe
-    zone: bharath2103.site
+    zone: daws84s.site
   tasks:
   - name: create ec2
     amazon.aws.ec2_instance:
@@ -16,7 +16,7 @@
       vpc_subnet_id: "{{ subnet_id }}"
       instance_type: t3.micro
       security_group: "{{ sg_id }}"
-      image_id: ami-09c813fb71547fc4f
+      image_id: ami-0220d79f3f480ecf5
       tags:
         Name: "{{ item }}"
     loop: "{{ instances }}"
