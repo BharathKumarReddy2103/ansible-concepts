@@ -2,15 +2,16 @@
   hosts: local
   connection: local
   vars:
-    DURATION: 125 # This is number
+    DURATION: 135 # This is number
     COURSE: "DevSecOps with AWS" # String
     IS_LIVE: true # boolean
     TOOLS: # List []
     - Linux
     - Shell
     - Ansible
+    - Chef
     CONCEPTS: # map or dictionary or object. referred like {}
-      CI: Jenkins
+      CI: Jenkins, GitHub Actions
       SCRIPTING: "Shell, Ansible, Terraform, Python"
   tasks:
   - name: print course information
