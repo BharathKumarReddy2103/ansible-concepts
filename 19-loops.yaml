@@ -10,4 +10,3 @@
     - { name: 'nginx', state: 'present'}
     - { name: 'mysql', state: 'absent'}
     - { name: 'zip', state: 'absent'}
-    - { name: 'unzip', state: 'present'}
