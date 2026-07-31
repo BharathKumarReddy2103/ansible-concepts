@@ -8,9 +8,9 @@
     ansible.builtin.debug:
       msg: "Hello, {{ person | default('Ramesh') }}"
 
-  # - name: print names
-  #   ansible.builtin.debug:
-  #     msg: "Hello {{ persons | split(',') }}"
+  - name: print names
+    ansible.builtin.debug:
+      msg: "Hello {{ persons | split(',') }}"
 
   # - name: convert map into list
   #   vars:
